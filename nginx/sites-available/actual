@@ -1,3 +1,5 @@
+# actual is a self hosted budgeting solution
+
 server {
     server_name budget.joinemm.dev;
 
@@ -11,17 +13,14 @@ server {
     ssl_certificate_key /etc/letsencrypt/live/budget.joinemm.dev/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
-
 }
 server {
+    server_name budget.joinemm.dev;
+
     if ($host = budget.joinemm.dev) {
         return 301 https://$host$request_uri;
-    } # managed by Certbot
+    }
 
-
-    server_name budget.joinemm.dev;
     listen 80;
     return 404; # managed by Certbot
-
-
 }
