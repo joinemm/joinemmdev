@@ -6,7 +6,7 @@
  - `sync.*` --> My syncthing cloud instance.
  - `analytics.*` | `pls.*` --> [Plausible](https://plausible.io) analytics, self hosted alternative to google analytics.
  - `digitalocean.*` | `hetzner.*` | `vultr.*` --> Redirects to my affiliate/referral links to these services.
- - any `listen: 80` is redirected to corresponding `listen: 443 ssl` because who is still using http.
+ - Any `listen: 80` is redirected to corresponding `listen: 443 ssl` because who is still using http.
  
 ## DNS
 
