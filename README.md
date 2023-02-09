@@ -10,7 +10,7 @@
  
 ## DNS
 
-Managed by Namecheap.
+Managed by [Namecheap](https://www.namecheap.com).
 
  - `A` `*` --> Wildcard domain for any subdomains to be redirected to the nginx server.
  - `A` `@` --> Vercel hosted [website](https://git.joinemm.dev/website).
