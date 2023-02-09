@@ -10,6 +10,8 @@
  
 ## DNS
 
+Managed by Namecheap.
+
  - `A` `*` --> Wildcard domain for any subdomains to be redirected to the nginx server.
  - `A` `@` --> Vercel hosted [website](https://git.joinemm.dev/website).
  - `A` `mc` --> Minecraft server (offline).
